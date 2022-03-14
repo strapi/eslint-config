@@ -85,35 +85,9 @@ nbproject
 # Node.js
 ############################
 
-lib-cov
-lcov.info
-pids
-logs
-results
-build
 node_modules
 .node_history
 package-lock.json
-**/package-lock.json
-!docs/package-lock.json
-*.heapsnapshot
-
-
-############################
-# Tests
-############################
-
-testApp
-coverage
-cypress/screenshots
-cypress/videos
-
-
-############################
-# Documentation
-############################
-
-dist
 
 ############################
 # Visual Studio Code
