@@ -23,12 +23,8 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,md,css,scss,yaml,yml}": [
