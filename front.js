@@ -17,9 +17,6 @@ module.exports = {
   },
   globals: {
     window: false,
-    expect: false,
-    assert: false,
-    chai: false,
   },
   rules: {
     'import/no-unresolved': 0,
