@@ -3,7 +3,7 @@
 module.exports = {
   parser: 'babel-eslint',
   extends: ['./base.js', 'airbnb'],
-  plugins: ['react', 'redux-saga', 'react-hooks', 'jsx-a11y'],
+  plugins: ['react', 'react-hooks', 'jsx-a11y'],
   env: {
     browser: true,
     commonjs: true,
@@ -17,22 +17,9 @@ module.exports = {
   },
   globals: {
     window: false,
-    cy: false,
-    Cypress: false,
     expect: false,
     assert: false,
     chai: false,
-    ENABLED_EE_FEATURES: false,
-    // TODO: put all this in process.env in webpack to avoid having to set them here
-    ADMIN_PATH: true,
-    BACKEND_URL: true,
-    PUBLIC_PATH: true,
-    NODE_ENV: true,
-  },
-  settings: {
-    react: {
-      version: '16.5.2',
-    },
   },
   rules: {
     'import/no-unresolved': 0,
