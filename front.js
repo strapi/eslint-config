@@ -15,9 +15,6 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  globals: {
-    window: false,
-  },
   rules: {
     'import/no-unresolved': 0,
     'generator-star-spacing': 0,
