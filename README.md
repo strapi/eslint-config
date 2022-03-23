@@ -1,5 +1,7 @@
 # eslint-config-strapi
 
+## ⚠️ WORK-IN-PROGRESS ⚠️ 
+
 This package provides Strapi's `.eslintrc` as an extensible shared config.
 
 ## Usage
