@@ -16,7 +16,6 @@ module.exports = {
   },
   rules: {
     'require-atomic-updates': 'off',
-    'no-process-exit': 'off',
     strict: ['error', 'global'],
     'no-return-await': 'error',
     'object-shorthand': ['error', 'always', { avoidExplicitReturnArrows: true }],
@@ -27,5 +26,6 @@ module.exports = {
     'import/extensions': ['error', 'never'],
     'import/newline-after-import': 'error',
     'one-var': ['error', 'never'],
+    'no-plusplus': 'off',
   },
 };
