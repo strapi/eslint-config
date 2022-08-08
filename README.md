@@ -11,7 +11,7 @@ This package provides Strapi's `.eslintrc` as an extensible shared config.
 You can install this package using it's GitHub repository:
 
 ```sh
-yarn add --dev strapi/eslint-config#main
+yarn add --dev @strapi/eslint-config
 ```
 
 We export four ESLint configurations for your usage. Choose the version you need and look at the usage instructions.
