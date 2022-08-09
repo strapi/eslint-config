@@ -1,19 +1,20 @@
 module.exports = {
-  parser: 'babel-eslint',
-  extends: ['./base.js', 'airbnb'],
+  parser: '@babel/eslint-parser',
+  extends: ['airbnb', './base.js'],
   plugins: ['react', 'react-hooks', 'jsx-a11y'],
   env: {
     browser: true,
     commonjs: true,
     mocha: true,
   },
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    sourceType: 'module',
-  },
   rules: {
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: ['arrow-function', 'function-declaration'],
+        unnamedComponents: 'arrow-function',
+      },
+    ],
     'import/no-unresolved': 0,
     'generator-star-spacing': 0,
     'no-console': 0,
@@ -73,14 +74,6 @@ module.exports = {
     'prefer-destructuring': 0,
     'prefer-object-spread': 0,
     'prefer-spread': 0,
-    'space-before-function-paren': [
-      'error',
-      {
-        anonymous: 'never',
-        named: 'never',
-        asyncArrow: 'always',
-      },
-    ],
     'react/destructuring-assignment': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/forbid-prop-types': 0,

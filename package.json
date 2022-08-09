@@ -34,9 +34,9 @@
     ]
   },
   "dependencies": {
+    "@babel/eslint-parser": "^7.18.9",
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
-    "babel-eslint": "10.0.0",
     "eslint": "^8.10.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -52,9 +52,9 @@
   "devDependencies": {
     "husky": "^7.0.4",
     "lint-staged": "^12.3.5",
-    "prettier": "^2.5.1"
+    "prettier": "^2.7.1"
   },
-  "peerDependencies": {
+  "optionalDependencies": {
     "typescript": "^4.6.2"
   }
 }
