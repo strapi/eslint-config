@@ -1,6 +1,6 @@
 {
   "name": "@strapi/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Strapi eslint configurations",
   "main": "base.js",
   "repository": {
