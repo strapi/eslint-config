@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./back.js', 'airbnb-typescript/base', 'plugin:@typescript-eslint/recommended'],
+  extends: ['./javascript.js', 'airbnb-typescript/base', 'plugin:@typescript-eslint/recommended'],
   rules: {
     '@typescript-eslint/comma-dangle': [
       'error',
