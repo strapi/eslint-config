@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./base.js', 'plugin:node/recommended'],
+  extends: ['../base.js', 'plugin:node/recommended'],
   rules: {
     'node/no-unpublished-require': 'off',
     'node/no-extraneous-require': 'off',
