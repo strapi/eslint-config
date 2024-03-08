@@ -102,6 +102,13 @@ module.exports = {
       { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
     ],
     /**
+     * Ensures the use of import and export as type when possible.
+     * @see: https://typescript-eslint.io/blog/consistent-type-imports-and-exports-why-and-how/
+     */
+    '@typescript-eslint/consistent-type-exports': 'error',
+    '@typescript-eslint/consistent-type-imports': 'error',
+    '@typescript-eslint/no-import-type-side-effects': 'error',
+    /**
      * Currently, we allow:
      *
      * ```jsx
